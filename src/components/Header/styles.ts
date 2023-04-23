@@ -1,21 +1,33 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
+  width: 100%;
   background: ${props => props.theme["gray-600"]};
-  padding: 2.5rem 0 7.5rem;
 `;
 
 export const HeaderContent = styled.div`
   width: 100%;
   max-width: 1120px;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 2.5rem 0;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
 
+  border-bottom: 1px solid ${props => props.theme["gray-300"]};
+  text-align: center;
+`;
+
+export const LogoContainer = styled.div`
+  h1 {
+    display: inline;
+    vertical-align: middle;
+    margin-left: 0.5rem;
+  }
+
   img {
+    vertical-align: middle;
     width: 50px;
     height: 50px;
   }
