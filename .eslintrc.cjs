@@ -21,14 +21,8 @@ module.exports = {
         tsx: "never",
       },
     ],
-    "no-shadow": "off",
     "@typescript-eslint/no-shadow": ["error"],
-    rules: {
-      "no-param-reassign": [
-        "error",
-        { props: true, ignorePropertyModificationsFor: ["draft"] },
-      ],
-    },
+    "no-shadow": "off",
     "import/no-extraneous-dependencies": [
       "error",
       {
