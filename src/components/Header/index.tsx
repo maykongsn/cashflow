@@ -6,7 +6,6 @@ import {
 } from "./styles";
 
 import logoImage from "../../assets/logo.svg";
-import { Summary } from "../Summary";
 
 export function Header() {
   return (
