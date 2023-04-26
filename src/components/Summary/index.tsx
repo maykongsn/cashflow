@@ -6,7 +6,6 @@ export function Summary() {
   return (
     <SummaryContainer>
       <SummaryContent>
-
         <SummaryCard>
           <header>
             <span>Entradas</span>

@@ -1,4 +1,9 @@
-import { HeaderContainer, HeaderContent, LogoContainer, NewTransactionButton } from "./styles";
+import {
+  HeaderContainer,
+  HeaderContent,
+  LogoContainer,
+  NewTransactionButton,
+} from "./styles";
 
 import logoImage from "../../assets/logo.svg";
 import { Summary } from "../Summary";
@@ -14,5 +19,5 @@ export function Header() {
         <NewTransactionButton>Nova transação</NewTransactionButton>
       </HeaderContent>
     </HeaderContainer>
-  )
+  );
 }
