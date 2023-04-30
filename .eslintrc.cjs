@@ -46,6 +46,13 @@ module.exports = {
         arrowParens: "always",
       },
     ],
+    "no-param-reassign": [
+      "error",
+      {
+        props: true,
+        ignorePropertyModificationsFor: ["summaryAccumulator"],
+      },
+    ],
     semi: ["error", "always"],
     camelcase: "off",
     "import/prefer-default-export": "off",
